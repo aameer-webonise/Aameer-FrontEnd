@@ -14,7 +14,6 @@ header{
     background-color: #333;
 }
 .menu{
-    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -38,16 +37,16 @@ header{
 }
 
 .footerMenu{
-    list-style-type: none;
+   
     margin: 0px;
     padding: 0px;
-    overflow: hidden;
+   
     background-color: #ececec;
     height: 50px;
 }
 
 
-.footerMenu li a {
+.footerMenu a {
     display: inline-block;
     color: #ff8000;
     font-size: 16px;
@@ -73,11 +72,8 @@ header{
     margin-top: 64px;
     margin-bottom: 70px;
 }
-.content2
-{
-    margin: 0px auto;
-    float: left;
-}
+
+
 .round{
     border-radius: 50%;
     width: 140px;
@@ -85,18 +81,28 @@ header{
     background-color: #efefef;
 }
 
+
 .circle li{
-    float: left;
-    text-align: center;
+    display: inline-block;
     color: #888888;
     width: 140px;
     height: 140px;
-    margin-left: 75px;
+    margin-right: 75px;
+    vertical-align: top;
 }
-.circle li:hover{
+.circle{
+    float: right;
+    text-align: center;
+}
+
+.circle li a{
+    text-decoration: none;
+    color: #888888;
+}
+.circle li a:hover{
     color: #444444;
-    cursor: pointer;
 }
+
 .clear{
     clear: both;
 }
