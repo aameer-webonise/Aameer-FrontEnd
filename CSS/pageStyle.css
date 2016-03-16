@@ -1,6 +1,7 @@
 .container{
     width: 940px;
     margin: 0px auto;
+    text-align: center;
 }
 .pageContent{
     margin-bottom: 110px;
@@ -12,6 +13,8 @@ body{
 
 nav{
     float: left;
+    margin-top: 11px;
+    margin-left: 50px;
 }
 
 .container h2{
@@ -26,7 +29,6 @@ nav{
     height:35px;
     width: 140px;
     margin: 0px;
-    margin-top: 8px; 
     float: left;
 }
 .logo a{
@@ -39,19 +41,27 @@ header{
 }
 .headerMenu{
     background-color: #333;
-    
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
+header .container{
+    padding: 7px 0 8px 0;
+}
 .headerMenu li {
 	float: left;
     list-style-type: none;
-    padding-left: 50px;
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+.headerMenu li:first-child{
+    margin-left: 0px;
 }
 
 .headerMenu li a {
     display: block;
     color: #aaaaaa;
-    font-size: 18px;
     text-align: center;
     text-decoration: none;
 }
@@ -61,21 +71,24 @@ header{
     margin: 0px;
     padding-left: 0px;
     background-color: #ececec;
-    height: 50px;
+    padding-top: 17px;
+    padding-bottom: 6px;
+    display: inline-block;
 }
 
 
 .footerMenu a {
     display: inline-block;
     color: #ff8000;
-    font-size: 16px;
-    text-align: center;
     text-decoration: none;
-    margin: 0px auto;
-    margin-top: 15px;
 }
 .footerMenu li{
     margin-left: 20px;
+    font-size: 16px;
+    float: left;
+}
+.footerMenu li:first-child{
+    margin-left: 0px;
 }
 .footerMenu li a:hover{
     color: #444444;
@@ -89,6 +102,11 @@ header{
 .howItWorksList{
     padding: 0px;
     margin-top: 0px;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+.howItWorksList li:first-child{
+    margin-left: 0px;
 }
 .howItWorksList li{
     float: left;
@@ -97,29 +115,21 @@ header{
     margin-left: 75px;
     width: 140px;
     color: #888888;
+    font-size: 18px;
 }
 
 .howItWorksList li:hover{
     color: #444444;
     cursor: pointer;
 }
-.image{
+.howItWorksStep{
     border-radius: 50%;
     background-color: #efefef;
     width: 140px;
     height: 140px;
     margin: 0 auto;
 }
-.clear{
-    clear: both;
-}
 
-.howItWorksList .clearUl{
-    float: none;
-    clear: both;
-    margin: 0px;
-    padding:0px;
-}
 footer{
     background-color: #ececec;
     text-align: center;
@@ -130,7 +140,9 @@ footer ul li{
     list-style: none;
 }
 
-.headerMenu li.clearLi {
+.clear {
     float: none;
     clear: both;
+    margin: 0px;
+    padding:0px;
 }
