@@ -125,7 +125,6 @@ header .container{
     background-color: #efefef;
     width: 140px;
     height: 140px;
-    margin: 0 auto;
 }
 
 footer{
@@ -134,7 +133,7 @@ footer{
     
 }
 
-.clear {
+.headerMenu li.clearLi,.clear {
     float: none;
     clear: both;
     margin: 0px;
