@@ -60,9 +60,7 @@ header .container{
 }
 
 .headerMenu li a {
-    display: block;
     color: #aaaaaa;
-    text-align: center;
     text-decoration: none;
 }
 
@@ -78,7 +76,6 @@ header .container{
 
 
 .footerMenu a {
-    display: inline-block;
     color: #ff8000;
     text-decoration: none;
 }
@@ -86,6 +83,7 @@ header .container{
     margin-left: 20px;
     font-size: 16px;
     float: left;
+    list-style: none;
 }
 .footerMenu li:first-child{
     margin-left: 0px;
@@ -134,10 +132,6 @@ footer{
     background-color: #ececec;
     text-align: center;
     
-}
-footer ul li{
-    display: inline;
-    list-style: none;
 }
 
 .clear {
