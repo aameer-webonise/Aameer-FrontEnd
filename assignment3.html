@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="description" content="HTML5 elements which are not there in HTML4">
+    <meta name="keywords" content="Project,name,measure,Gallery">
+    <meta name="author" content="Ausekar Md.Aameer">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/pageStyle.css">
+    
+</head>
+<body>
+    <nav class="navbar navbar-default navbarProperties">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header logo">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand logoName" href="javascript:void(0);">Project name</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav headerLinks">
+                <li><a href="javascript:void(0);">Home <span class="sr-only">(current)</span></a></li>
+                <li><a href="javascript:void(0);">About</a></li>
+                <li><a href="javascript:void(0);">Contact</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">One more separated link</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-->
+</nav>
+
+
+<div class="banner"><!--banner-->
+    <h1>One more for good measure.</h1>
+    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+    <button type="button" class="btn btn-primary galleryButton">Browse Gallery</button>
+</div>
+
+<div class="container">
+    <div class="row">
+      <ul class="heading clearfix">
+            <li class="col-md-4">
+                <div class="headingImage">
+                    <img src="img/1.jpg" alt="heading image">
+                </div>
+                <h2>Heading</h2>
+                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibilum at eros. Praesent commodo cursus magna.</p>
+                <button type="button" class="btn btn-default">View Details</button>
+            </li>
+            <li class="col-md-4">
+                <div class="headingImage">
+                    <img src="img/2.jpg" alt="heading image">
+                </div>
+                <h2>Heading</h2>
+                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibilum at eros. Praesent commodo cursus magna.</p>
+                <button type="button" class="btn btn-default">View Details</button>
+            </li>
+            <li class="col-md-4">
+                <div class="headingImage">
+                    <img src="img/3.jpg" alt="heading image">
+                </div>
+
+                <h2>Heading</h2>
+                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibilum at eros. Praesent commodo cursus magna.</p>
+                <button type="button" class="btn btn-default">View Details</button>
+            </li>
+        </ul>
+
+      <div class="col-md-5">
+            <div class="formImage">
+                <img src="img/4.jpg" alt="form image">
+            </div>
+      </div>
+
+      <div class="col-md-7">
+        <h2>Contact Us</h2>
+        <h6 class="subHeading">Get in touch and let us know how we can help.</h6>
+        <form>
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" placeholder="Your Email">
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" rows="9"  id="comment" placeholder="You can write your message here..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-info pull-right submitButton">Send</button>
+        </form>
+      </div>
+    </div>
+    
+     <div class="footer clearfix">
+        <ul class="footerNav clearfix pull-left">
+            <li>&#169; 2015 Company, Inc.</li>
+            <li><a href="javascript:void(0);">Privacy</a></li>
+            <li><a href="javascript:void(0);">Terms</a></li>
+        </ul>
+        <a href="#" class="pull-right">Back To Top</a>
+    </div>
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
