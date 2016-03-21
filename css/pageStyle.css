@@ -20,7 +20,7 @@
 .navbarProperties .headerLinks li a:hover{
 	color: white;
 }
-.headerLinks li{
+.headerLinks > li{
 	margin-left: 30px;
 }
 
@@ -64,14 +64,14 @@
 .heading h2{
 	font-size: 18px;
 	color: #5a5a5a;
-	margin-top: 25px;
+	margin: 0;
 }
 .heading p{
 	font-size: 14px;
 	color: #5a5a5a;
 }
 
-.subHeading{
+h6{
 	margin-bottom: 30px;
 }
 .formMargin{
@@ -126,18 +126,18 @@
 .headingImage{
 	width: 140px;
 	height: 140px;
-	margin: 0 auto;
+	margin: 0 auto 25px;
 }
 .headingImage img{
 	width: 100%;
 	height: 100%;
 }
-.formImage{
+.contactUsImage{
 	width: 457px;
 	height: 456px;
 }
 
-.formImage img{
+.contactUsImage img{
 	width: 100%;
 	height: 100%;
 }
