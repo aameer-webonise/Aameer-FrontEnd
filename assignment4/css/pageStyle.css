@@ -1,0 +1,334 @@
+.logo{
+	padding: 23px 0 23px 0;
+}
+.logo a{
+	display: block;
+}
+.headerMenu{
+	padding: 23px 0 23px 0;
+}
+.headerMenu li{
+	margin-left: 28px;
+	padding: 9px 0 9px 0;
+}
+
+.headerMenu li:first-child{
+	margin-left: 0;
+}
+
+.navbarProperties .headerMenu li a:hover{
+	color: #02b8dc;
+}
+.navbarProperties .headerMenu li a{
+	color: #1c3a50;
+}
+.navbarProperties{
+	margin-bottom: 0;
+	border-radius: 0;
+	border: none; 
+}
+.banner{
+	height: 500px;
+	background-image: url(../images/bannerBg.png);
+	background-size: cover;
+}
+.banner img{
+	height: 100%;
+	width: 100%;
+	position:absolute;
+}
+
+.bannerInformation li{
+	list-style-type: none;
+}
+.travelForm{
+	
+	background-color: white;
+	margin-top: 97px;
+	padding: 40px 80px 20px 80px;
+	width:640px;
+}
+.travelForm label{
+	color: #6d6e71;
+	font-size: 14px;
+}
+
+.travelDateAndAccomodation{
+	width: 150px;
+	margin-left: 15px;
+}
+
+.travelForm div:nth-child(2){
+	margin-left: 0;
+}  
+.findButton{
+	width: 140px;
+	height: 47px;
+	background-color: rgb(255,97,0);
+	font-weight:bold;
+	color:#fff;
+	border:none;
+}
+ h1{
+	font-size: 32px;
+	color: #1f435e;
+	margin-top: 170px;
+}
+h2{
+	text-align: center;
+	color: #1c3a50;
+	font-size: 36px;
+}
+.reasonToBook h2{
+	margin-bottom: 30px;
+}
+
+.deals{
+	background-color: #F0F0F0 ;
+	padding-top: 40px;
+}
+.deals h2{
+	margin: 0 0 35px 0;
+}
+.dealImage img{
+	width: 100%;
+	height: 100%;
+}
+
+.deals .VacationChart ul{
+	list-style-type: none;
+}
+.reasonToBook{
+	background-color: #c7e7f9;
+}
+.reasonToBookList {
+	list-style-type: none;
+	padding-left: 0;
+}
+.reasonToBookList li img{
+	margin: 0 auto;
+}
+.reasonToBookList img{
+	width: 100%;
+	height: 100%;
+}
+
+.reasonToBookList li a{
+	text-decoration: none;
+	color: #1c3a50;
+}
+.reasonToBookList li:first-child{
+	margin-left: 0;
+}
+.reasonToBookList li:last-child{
+	margin-right: 0;
+}
+.reasonToBookList li div{
+	margin: 0 auto;
+}
+.reasonFirstImage{
+	width: 88px;
+	height: 53px;
+	background-image: url(../images/reason1.png);
+}
+.reasonSecondImage{
+	width: 43px;
+	height: 67px;
+	background-image: url(../images/reason2.png);
+}
+.reasonThirdImage{
+	width: 80px;
+	height: 66px;
+	background-image: url(../images/reason3.png);
+}
+
+.reasonToBookList li{
+	text-align: center;
+	font-size: 18px;
+	color: #1c3a50;
+	width: 290px;
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: 150px;
+
+}
+.VacationChart p{
+	text-align: center;
+	font-size: 22px;
+	margin-bottom: 0;
+}
+.VacationChart{
+	background-color: white;
+	height: 260px;
+	padding: 13px 20px; 
+}
+.VacationChart ul li{
+	padding-bottom: 25px;
+	padding-top: 25px;
+	border-bottom: 1px solid #d0dce5;
+}
+
+.VacationChart ul{
+	padding-left: 0;
+	margin-bottom: 0;
+}
+.VacationChart ul li:last-child{
+	padding-bottom: 0;
+	border-bottom: none;
+}
+.vacationPlace{
+	font-size: 18px;
+	line-height: 30px;
+}
+.vacationPlacePrice{
+	font-size: 30px;
+	margin-left: 5px;
+}
+.cent{
+	font-size: 22px;
+	line-height: 30px;
+}
+.cent,.vacationPlacePrice{
+	color: #ef5a29;
+	font-weight: bold;
+	line-height: 30px;
+}
+
+.dealImage{
+	position: relative;
+	height: 260px;
+}
+.dealOffer{
+	position: absolute;
+	width: 250px;
+	height: 220px;
+	left: 32px;
+	top: 20px;
+	color: black;
+	background-color: rgba(255,255,255,0.7);
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+
+}
+.dealHeading{
+	font-size: 22px;
+	margin-bottom: 40px;
+}
+.dealSubHeading{
+	font-size: 22px;
+	margin-bottom: 15px;
+}
+.vacationFrom{
+	font-size: 16px;
+	margin-bottom: 0;
+}
+.dealOffer p span{
+	color: #333;
+}
+.dealDiv{
+	font-size: 22px;
+	text-align: center;
+	padding: 10px 30px;
+	width: 157px;
+}
+.dealDiv p{
+	margin-bottom: 0;
+}
+
+.offerLine{
+	padding: 22px 0;
+	background-color: #02b8dc;
+	text-align: center;
+}
+
+.offerLine{
+	color: white;
+	margin-bottom:50px;
+}
+.offerLine p{
+	font-size: 24px;
+	margin-bottom: 0px;
+
+}
+.joinNow{
+	border-radius: 0;
+	background-color: #02b8dc;
+	border-color: #fff;
+	width: 160px;
+	height: 42px;
+	font-size: 18px;
+	margin-left: 30px;
+	color: #fff;
+	border:2px solid;
+}
+
+.purchaseOffValue{
+	font-size: 30px;
+	font-weight: bold;
+}
+.dealList li{
+	height: 250px;
+	margin-bottom: 30px;
+	display:inline-block
+}
+.dealList{
+	margin-bottom: 40px;
+}
+.dealList li button{
+	position: absolute;
+	background-color: rgba(255,255,255,0.7);
+	left: 113px;
+	top: 109px;
+	border-radius:0;
+	font-size:22px;
+	padding:10px 30px;
+	border:none;
+	width:157px;
+}
+
+.dealList li img{
+	width: 100%;
+	height: 100%;
+}
+.dealWrapper{
+	margin-bottom: 30px;
+}
+.deals ul{
+	list-style-type: none;
+	padding-left: 0;
+}
+footer{
+	background-color: #1c3a50;
+	padding-top: 50px;
+}
+footer ul li{
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+
+footer div ul{
+	margin-left: 100px;
+	list-style-type: none;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+footer div ul:first-child{
+	margin-left: 0;
+}
+footer p{
+	font-size: 12px;
+	color: #8e9da8;
+	margin-top: 25px;
+}
+
+.footerMenu a{
+	text-decoration: none;
+	color: #fff;
+}
+.reasonToBook h2{
+	margin-top: 10px;
+}
+.reasonToBook li p{
+	margin-bottom: 15px;
+}
