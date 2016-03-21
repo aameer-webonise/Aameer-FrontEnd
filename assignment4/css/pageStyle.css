@@ -32,35 +32,26 @@
 	background-image: url(../images/bannerBg.png);
 	background-size: cover;
 }
-.banner img{
-	height: 100%;
-	width: 100%;
-	position:absolute;
-}
 
-.bannerInformation li{
-	list-style-type: none;
-}
+
 .travelForm{
-	
 	background-color: white;
 	margin-top: 97px;
 	padding: 40px 80px 20px 80px;
 	width:640px;
-}
-.travelForm label{
 	color: #6d6e71;
 	font-size: 14px;
-}
-
-.travelDateAndAccomodation{
-	width: 150px;
-	margin-left: 15px;
 }
 
 .travelForm div:nth-child(2){
 	margin-left: 0;
 }  
+.travelDateAndAccomodation{
+	width: 150px;
+	margin-left: 15px;
+}
+
+
 .findButton{
 	width: 140px;
 	height: 47px;
@@ -147,8 +138,8 @@ h2{
 	font-size: 18px;
 	color: #1c3a50;
 	width: 290px;
-	padding-left: 0;
-	padding-right: 0;
+	
+	padding: 0 0 0 0;
 	margin-left: 150px;
 
 }
@@ -163,8 +154,8 @@ h2{
 	padding: 13px 20px; 
 }
 .VacationChart ul li{
-	padding-bottom: 25px;
-	padding-top: 25px;
+	
+	padding: 25px 0;
 	border-bottom: 1px solid #d0dce5;
 }
 
@@ -175,6 +166,9 @@ h2{
 .VacationChart ul li:last-child{
 	padding-bottom: 0;
 	border-bottom: none;
+}
+.VacationChart ul li:first-child{
+	padding-top: 6px;
 }
 .vacationPlace{
 	font-size: 18px;
@@ -198,13 +192,13 @@ h2{
 	position: relative;
 	height: 260px;
 }
-.dealOffer{
+.dealImage div{
 	position: absolute;
 	width: 250px;
 	height: 220px;
 	left: 32px;
 	top: 20px;
-	color: black;
+	color: #333;
 	background-color: rgba(255,255,255,0.7);
 	padding: 10px 10px 10px 10px;
 	text-align: center;
@@ -222,7 +216,7 @@ h2{
 	font-size: 16px;
 	margin-bottom: 0;
 }
-.dealOffer p span{
+.dealImage p span{
 	color: #333;
 }
 .dealDiv{
