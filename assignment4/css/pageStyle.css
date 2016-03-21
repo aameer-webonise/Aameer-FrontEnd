@@ -5,24 +5,21 @@
 	display: block;
 }
 .headerMenu{
-	padding: 23px 0 23px 0;
+	margin-top: 42px;
 }
 .headerMenu li{
-	margin-left: 28px;
-	padding: 9px 0 9px 0;
+	font-size: 18px;
 }
 
-.headerMenu li:first-child{
-	margin-left: 0;
-}
-
-.navbarProperties .headerMenu li a:hover{
+.headerMenu li a:hover{
 	color: #02b8dc;
+	background-color: #ffffff;
 }
-.navbarProperties .headerMenu li a{
+.headerMenu li a{
 	color: #1c3a50;
+	padding: 10px 14px;
 }
-.navbarProperties{
+.navbar{
 	margin-bottom: 0;
 	border-radius: 0;
 	border: none; 
@@ -38,7 +35,6 @@
 	background-color: white;
 	margin-top: 97px;
 	padding: 40px 80px 20px 80px;
-	width:640px;
 	color: #6d6e71;
 	font-size: 14px;
 }
@@ -46,9 +42,9 @@
 .travelForm div:nth-child(2){
 	margin-left: 0;
 }  
-.travelDateAndAccomodation{
+.formTextWrap{
 	width: 150px;
-	margin-left: 15px;
+	margin-left: 21px;
 }
 
 
@@ -75,13 +71,13 @@ h2{
 }
 
 .deals{
-	background-color: #F0F0F0 ;
+	background-color: #fcfcfc;
 	padding-top: 40px;
 }
 .deals h2{
 	margin: 0 0 35px 0;
 }
-.dealImage img{
+.dealBanner img{
 	width: 100%;
 	height: 100%;
 }
@@ -96,40 +92,31 @@ h2{
 	list-style-type: none;
 	padding-left: 0;
 }
-.reasonToBookList li img{
-	margin: 0 auto;
-}
-.reasonToBookList img{
-	width: 100%;
-	height: 100%;
-}
 
 .reasonToBookList li a{
 	text-decoration: none;
 	color: #1c3a50;
 }
-.reasonToBookList li:first-child{
-	margin-left: 0;
-}
-.reasonToBookList li:last-child{
-	margin-right: 0;
-}
-.reasonToBookList li div{
-	margin: 0 auto;
+
+.reasonToBookList li i{
+	display: block;
 }
 .reasonFirstImage{
 	width: 88px;
 	height: 53px;
+	margin-bottom: 19px;
 	background-image: url(../images/reason1.png);
 }
 .reasonSecondImage{
 	width: 43px;
 	height: 67px;
+	margin-bottom: 5px;
 	background-image: url(../images/reason2.png);
 }
 .reasonThirdImage{
 	width: 80px;
 	height: 66px;
+	margin-bottom: 7px;
 	background-image: url(../images/reason3.png);
 }
 
@@ -137,16 +124,13 @@ h2{
 	text-align: center;
 	font-size: 18px;
 	color: #1c3a50;
-	width: 290px;
-	
-	padding: 0 0 0 0;
-	margin-left: 150px;
 
 }
-.VacationChart p{
+.VacationChart h4{
 	text-align: center;
 	font-size: 22px;
 	margin-bottom: 0;
+	margin-top: 0;
 }
 .VacationChart{
 	background-color: white;
@@ -155,7 +139,7 @@ h2{
 }
 .VacationChart ul li{
 	
-	padding: 25px 0;
+	line-height: 66px;
 	border-bottom: 1px solid #d0dce5;
 }
 
@@ -164,35 +148,40 @@ h2{
 	margin-bottom: 0;
 }
 .VacationChart ul li:last-child{
-	padding-bottom: 0;
+	
 	border-bottom: none;
 }
 .VacationChart ul li:first-child{
-	padding-top: 6px;
+	
 }
 .vacationPlace{
 	font-size: 18px;
 	line-height: 30px;
+	width:100px;
 }
+
+.currency{
+	font-size: 22px;
+	color: #ef5a29;
+}
+.lastMinuteCurrency{
+	font-size: 22px;
+}
+
 .vacationPlacePrice{
+	color: #ef5a29;
 	font-size: 30px;
 	margin-left: 5px;
 }
-.cent{
-	font-size: 22px;
-	line-height: 30px;
-}
-.cent,.vacationPlacePrice{
-	color: #ef5a29;
+.lastMinutePrice{
+	font-size: 30px;
 	font-weight: bold;
-	line-height: 30px;
 }
-
-.dealImage{
+.dealBanner{
 	position: relative;
 	height: 260px;
 }
-.dealImage div{
+.dealBanner div{
 	position: absolute;
 	width: 250px;
 	height: 220px;
@@ -216,46 +205,42 @@ h2{
 	font-size: 16px;
 	margin-bottom: 0;
 }
-.dealImage p span{
+.dealBanner p span{
 	color: #333;
 }
-.dealDiv{
-	font-size: 22px;
-	text-align: center;
-	padding: 10px 30px;
-	width: 157px;
-}
-.dealDiv p{
-	margin-bottom: 0;
-}
 
-.offerLine{
+.offerBanner{
 	padding: 22px 0;
 	background-color: #02b8dc;
 	text-align: center;
 }
 
-.offerLine{
+.offerBanner{
 	color: white;
 	margin-bottom:50px;
 }
-.offerLine p{
+.offerBanner p{
 	font-size: 24px;
 	margin-bottom: 0px;
 
 }
-.joinNow{
+.offerBanner .joinNow{
+	text-decoration: none;
+	display: inline-block;
 	border-radius: 0;
-	background-color: #02b8dc;
+	color: #fff;
 	border-color: #fff;
 	width: 160px;
 	height: 42px;
 	font-size: 18px;
-	margin-left: 30px;
 	color: #fff;
 	border:2px solid;
+	padding-top: 5px;
 }
-
+.joinNow:hover{
+	color: #fff;
+	color: #fff;
+}
 .purchaseOffValue{
 	font-size: 30px;
 	font-weight: bold;
@@ -268,7 +253,15 @@ h2{
 .dealList{
 	margin-bottom: 40px;
 }
-.dealList li button{
+
+.dealList li img{
+	width: 100%;
+	height: 100%;
+}
+.dealList li a{
+	display: inline-block;
+	text-decoration: none; 
+	color: #1c3a50;
 	position: absolute;
 	background-color: rgba(255,255,255,0.7);
 	left: 113px;
@@ -278,11 +271,10 @@ h2{
 	padding:10px 30px;
 	border:none;
 	width:157px;
+	text-align: center;
 }
-
-.dealList li img{
-	width: 100%;
-	height: 100%;
+.dealList li a:hover{
+	color: #1c3a50;
 }
 .dealWrapper{
 	margin-bottom: 30px;
