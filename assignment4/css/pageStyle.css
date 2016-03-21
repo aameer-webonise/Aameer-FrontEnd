@@ -82,14 +82,10 @@ h2{
 	height: 100%;
 }
 
-.deals .VacationChart ul{
-	list-style-type: none;
-}
 .reasonToBook{
 	background-color: #c7e7f9;
 }
 .reasonToBookList {
-	list-style-type: none;
 	padding-left: 0;
 }
 
@@ -280,7 +276,7 @@ h2{
 	margin-bottom: 30px;
 }
 .deals ul{
-	list-style-type: none;
+	
 	padding-left: 0;
 }
 footer{
@@ -295,7 +291,6 @@ footer ul li{
 
 footer div ul{
 	margin-left: 100px;
-	list-style-type: none;
 	padding-left: 0;
 	margin-bottom: 0;
 }
